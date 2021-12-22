@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>編輯</title>
+    <title>修改</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -14,7 +14,112 @@
 </head>
 
 <body>
-編輯
+
+    <div class="container-flude">
+        <h2 class="text-center mt-2">編輯修改系統</h2>
+
+        <div class="container">
+            <form action="">
+                <div class="form-group">
+                    <div class="row mt-5">
+                        <div class="col-6">
+                            <input type="hidden" class="form-control" id="" name="" >
+                            <label for=""><i class="far fa-user-circle"></i>&nbsp;&nbsp;ID</label>
+                            <p>1234564</p>
+                        </div>
+                        <div class="col-6">
+                            <input type="hidden" class="form-control" id="" name="" >
+                            <label for=""><i class="fas fa-user-tie"></i>&nbsp;&nbsp;職訓編號</label>
+                            <p>1234564</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="name"><i class="far fa-user-circle"></i>&nbsp;&nbsp;名稱</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="enter name">
+                        </div>
+                        <div class="col-6">
+                            <label for="contact"><i class="fas fa-user-tie"></i>&nbsp;&nbsp;聯絡人</label>
+                            <input type="text" class="form-control" id="contact" name="contact" placeholder="enter contact">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="tel"><i class="fas fa-phone"></i>&nbsp;&nbsp;市話</label>
+                            <input type="number" class="form-control" id="tel" name="tel" placeholder="enter tel">
+                        </div>
+                        <div class="col-6">
+                            <label for="phone"><i class="fas fa-mobile-alt"></i>&nbsp;&nbsp;手機</label>
+                            <input type="number" class="form-control" id="phone" name="phone" placeholder="enter mobile">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="address"><i class="fas fa-map-marked-alt"></i>&nbsp;&nbsp;地址</label>
+                    <input type="text" class="form-control" id="address" name="address" placeholder="enter address">
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-6">
+                            <label for="start"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;起始日</label>
+                            <input type="date" class="form-control" id="start" name="start">
+                        </div>
+                        <div class="col-6">
+                            <label for="end"><i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;到期日</label>
+                            <input type="date" class="form-control" id="end" name="end" >
+                        </div>
+                    </div>
+                </div>
+        
+        <div class="form-group">
+            <div class="row">
+                <div class="col-4">
+                    <label for="rent"><i class="fas fa-dollar-sign"></i>&nbsp;&nbsp;使用費</label>
+                    <input type="text" class="form-control" id="rent" name="rent" placeholder="enter rent">
+                </div>
+                <div class="col-4">
+                    <label for="rent_y">額外費用(年)</label>
+                    <input type="text" class="form-control" id="rent_y" name="rent_y" placeholder="enter year of rent">
+                </div>
+                <div class="col-4">
+                    <label for="rent_m">額外費用(月)</label>
+                    <input type="text" class="form-control" id="rent_m" name="rent_m" placeholder="enter month of rent">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-6 my-3">
+                   <label for="o_pic"><i class="far fa-image"></i>&nbsp;&nbsp;原始照片</label>
+                    <input type="file" class="form-control" name="o_pic" id="o_pic">
+                    <div>
+                        <img src="https://picsum.photos/id/236/200/100" alt="">
+                    </div>
+                </div>
+                <div class="col-6 my-3">
+                    <label for="pic"><i class="far fa-images"></i>&nbsp;&nbsp;照片</label>
+                    <input type="file" class="form-control" name="pic" id="pic">
+                    <div>
+                        <img src="https://picsum.photos/id/237/200/100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="pdf"><i class="fas fa-sd-card"></i>&nbsp;&nbsp;掃描文件</label>
+            <input type="file" class="form-control" name="pdf" id="pdf">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-info shadow p-2 my-5 rounded w-75"><i class="fas fa-paper-plane">Submit</i></button>
+        </div>
+        </form>
+    </div>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
