@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>飯店表單</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header border rounded-pill mt-3 bg-info shadow">
+            <h3 class="text-center text-light pt-2">創建資料</h3>
+        </div>
+        <form action="">
+            <div class="form-group row mt-4">
+                <label for="name" class="col-sm-2 col-form-label text-center"><i
+                        class="fas fa-file-signature">&nbsp;&nbsp;姓名</i></label>
+                <div class=" col-sm-2 ">
+                    <input type="text" class="form-control border-info" id="name" value="">
+                </div>
+                <label for="address" class="col-sm-2 col-form-label text-center">地址</label>
+                <div class=" col-sm-6">
+                    <input type="text" class="form-control border-info" id="address" value="">
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <label for="contact" class="col-sm-2 col-form-label text-center"><i
+                        class="fas fa-file-signature">&nbsp;&nbsp;負責人</i></label>
+                <div class=" col-sm-2 ">
+                    <input type="text" class="form-control border-info" id="contact" value="">
+                </div>
+                <label for="time_start" class="col-sm-2 col-form-label text-center">合約起始日</label>
+                <div class=" col-sm-2">
+                    <input type="date" class="form-control border-info" id="time_start" value="">
+                </div>
+                <label for="time_end" class="col-sm-2 col-form-label text-center">合約結束日</label>
+                <div class=" col-sm-2">
+                    <input type="date" class="form-control border-info" id="time_end" value="">
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <label for="cost" class="col-sm-2 col-form-label text-center">租金</label>
+                <div class=" col-sm-2 ">
+                    <input type="text" class="form-control border-info" id="cost" value="">
+                </div>
+                <label for="other" class="col-sm-2 col-form-label text-center">其他</label>
+                <div class=" col-sm-6">
+                    <input type="text" class="form-control border-info" id="other" value="">
+                </div>
+            </div>
+
+            <div class="form-group text-center">
+                <label for="remark" class="col-sm-2"><i class="fas fa-clipboard">&nbsp;&nbsp;Remark</i></label>
+                <textarea class="form-control ml-3 border-info" id="remark" rows="5"></textarea>
+            </div>
+            <div class="text-center ">
+                <button type="submit" class="btn btn-info shadow p-2 mb-5 rounded"><i class="fas fa-paper-plane">Submit</i></button>
+            </div>
+        </form>
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
